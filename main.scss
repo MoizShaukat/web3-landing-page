@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Open+Sans:wght@400;500&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #ffffff;
+    background-color: #212121;
+}
+
+.line {
+    border: 0.1px solid #ffffff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+        color: rgba(255, 237, 65, 1);
+        text-decoration: none;
+        font-size: 20px;
+        padding: 20px 5%;
+    }
+
+    button {
+        position: relative;
+        //margin-left: ;
+        border: 1px solid white;
+        border-radius: 6px;
+
+        background-color: white;
+        padding: 14px;
+
+        font-size: 15px;
+    }
+
+    .secondary {
+        padding-right: 5rem;
+    }
+
+    .items {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+
+        li {
+            padding: 20px 10%;
+            white-space: nowrap;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
+
+.hero-section {
+    margin: 0 5%;
+    padding: 70px 0;
+    width: 60%;
+
+    h1 {
+        font-family: "Bebas Neue", cursive;
+        font-size: 150px;
+    }
+    p {
+        font-family: "Open Sans", sans-serif;
+        opacity: 90%;
+        font-size: 19px;
+    }
+
+    button {
+        cursor: pointer;
+        border-radius: 6px;
+        height: 58px;
+        width: 200px;
+        margin-top: 1.6rem;
+        position: relative;
+        border: 1px solid white;
+        padding: 8px 13px;
+        width: 200px;
+        font-family: "Alata", sans-serif;
+        font-size: 20px;
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
+
+.section-2 {
+    margin: 0 5%;
+    padding: 70px 0;
+
+    .description {
+        padding: 20px 1.6rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h1 {
+            font-family: "Bebas Neue", cursive;
+            font-size: 150px;
+        }
+        .lelo {
+            width: 60%;
+            font-family: "Open Sans", sans-serif;
+            opacity: 90%;
+            font-size: 19px;
+            line-height: 1.5rem;
+            letter-spacing: 2%;
+        }
+    }
+}
+
+.section-3 {
+    margin: 0 5%;
+    padding: 40px 0;
+
+    h2 {
+        text-align: center;
+        letter-spacing: 0.3rem;
+        font-family: "Bebas Neue", cursive;
+        font-size: 150px;
+    }
+}
+
+.nft {
+    //background-color: #648596;
+    //text-align: center;
+    width: 100%;
+    height: auto;
+    //object-fit: cover;
+    //object-position: bottom;
+}

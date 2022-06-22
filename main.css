@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Open+Sans:wght@400;500&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #ffffff;
+  background-color: #212121;
+}
+
+.line {
+  border: 0.1px solid #ffffff;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .logo {
+  color: #ffed41;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 20px 5%;
+}
+
+.navbar button {
+  position: relative;
+  border: 1px solid white;
+  border-radius: 6px;
+  background-color: white;
+  padding: 14px;
+  font-size: 15px;
+}
+
+.navbar .secondary {
+  padding-right: 5rem;
+}
+
+.navbar .items {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.navbar .items li {
+  padding: 20px 10%;
+  white-space: nowrap;
+}
+
+.navbar .items a {
+  text-decoration: none;
+  color: white;
+}
+
+.hero-section {
+  margin: 0 5%;
+  padding: 70px 0;
+  width: 60%;
+}
+
+.hero-section h1 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 150px;
+}
+
+.hero-section p {
+  font-family: "Open Sans", sans-serif;
+  opacity: 90%;
+  font-size: 19px;
+}
+
+.hero-section button {
+  cursor: pointer;
+  border-radius: 6px;
+  height: 58px;
+  width: 200px;
+  margin-top: 1.6rem;
+  position: relative;
+  border: 1px solid white;
+  padding: 8px 13px;
+  width: 200px;
+  font-family: "Alata", sans-serif;
+  font-size: 20px;
+}
+
+.hero-section button a {
+  text-decoration: none;
+  color: black;
+}
+
+.section-2 {
+  margin: 0 5%;
+  padding: 70px 0;
+}
+
+.section-2 .description {
+  padding: 20px 1.6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-2 .description h1 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 150px;
+}
+
+.section-2 .description .lelo {
+  width: 60%;
+  font-family: "Open Sans", sans-serif;
+  opacity: 90%;
+  font-size: 19px;
+  line-height: 1.5rem;
+  letter-spacing: 2%;
+}
+
+.section-3 {
+  margin: 0 5%;
+  padding: 40px 0;
+}
+
+.section-3 h2 {
+  text-align: center;
+  letter-spacing: 0.3rem;
+  font-family: "Bebas Neue", cursive;
+  font-size: 150px;
+}
+
+.nft {
+  width: 100%;
+  height: auto;
+}
+/*# sourceMappingURL=main.css.map */
